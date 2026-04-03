@@ -1,3 +1,12 @@
-h1 {
-  color: red;
+div {
+    text-align:center;
+    margin:20px;
+}
+
+button{
+    padding:10px;
+    background-colour:orange;
+    border:none;
+    cursor:pointer;
+    
 }
