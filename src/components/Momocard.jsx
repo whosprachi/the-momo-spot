@@ -1,4 +1,4 @@
-function Momocard({name,price}){
+function Momocard({name,price,onAdd}){
     return(
         <div>
             <h3>{name}</h3>

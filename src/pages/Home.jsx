@@ -14,6 +14,8 @@ const momos=[{id:1,name: " Veg Momos",price:80},
 const addToCart = (item) => {
   setCart([...cart, item]);
 };
+
+const total = cart.reduce((sum, item) => sum + item.price, 0);
  return (
         <div>
             <Hero/>
@@ -25,6 +27,7 @@ const addToCart = (item) => {
 
             ))}    
             </ul>
+            <h3>Total: ${total}</h3>
         </div>
     );
 
