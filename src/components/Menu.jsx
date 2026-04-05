@@ -1,6 +1,6 @@
-import MomoCard from "./Momocard";
+import MomoCard from "./MomoCard";
 
-function Menu({ items, onAdd }) {
+function Menu({ items, onAdd,filter }) {
   return (
     <div>
       <h2>Our Menu</h2>

@@ -12,11 +12,11 @@ const Hero = () => {
         <div className="food-content">
             <span className ="food-badge">Fast And Fresh</span>
             <h1>
-                delicious Momos <br/>
-                <span>Delivered to Your</span>
+                Delicious Momos <br/>
+                <span>Delivered to You</span>
             </h1>
             <p>
-                Order your Favorite momo 
+                Order your Favorite MOMO
             </p>
 
             <div className="food-actions">

@@ -1,0 +1,69 @@
+.menu-page {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.menu-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.menu-header h1 {
+  font-size: 3.5rem;
+  background: -webkit-linear-gradient(45deg, #ff6b6b, #feca57);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.menu-header p {
+  font-size: 1.2rem;
+  color: #636e72;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.menu-filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.6rem 1.5rem;
+  border: 2px solid #ffeaa7;
+  background: transparent;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  color: #2d3436;
+}
+
+.filter-btn:hover {
+  background: #ffeaa7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(255, 234, 167, 0.4);
+}
+
+.filter-btn.active {
+  background: #ff9f43;
+  border-color: #ff9f43;
+  color: white;
+  box-shadow: 0 4px 15px rgba(255, 159, 67, 0.4);
+}
+
+.menu-content {
+  margin-top: 2rem;
+}
