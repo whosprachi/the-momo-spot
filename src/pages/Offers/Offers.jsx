@@ -34,7 +34,7 @@ const Offers = () => {
             title: "Mega Platter Deal",
             description: "Order our signature Mega Platter and save $5 off the regular price.",
             code: "MEGAMOMO",
-            discount: "$5 OFF",
+            discount: "Rs50  OFF",
             validUntil: "Limited Time"
         }
     ]);
