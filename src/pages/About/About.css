@@ -1,0 +1,118 @@
+.about-page {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 80vh;
+  animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.about-header h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #2d3436;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Inter', sans-serif;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  color: #636e72;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.about-image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  height: 500px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+.about-image-wrapper:hover {
+  transform: translateY(-10px);
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 2.2rem;
+  color: #2d3436;
+  margin-bottom: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #636e72;
+  margin-bottom: 1.5rem;
+}
+
+.about-stats {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px dashed rgba(0,0,0,0.1);
+  justify-content: space-between;
+}
+
+.stat h3 {
+  font-size: 2.2rem;
+  color: #ff6b6b;
+  margin: 0 0 0.5rem 0;
+  font-weight: 900;
+}
+
+.stat span {
+  font-size: 0.9rem;
+  color: #b2bec3;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 900px) {
+  .about-content {
+    flex-direction: column;
+  }
+  .about-image-wrapper {
+    width: 100%;
+    height: 350px;
+  }
+}
