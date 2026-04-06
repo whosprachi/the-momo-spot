@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css"
+import momochef from "../../assets/chefphoto.png"
 
 const About =()=> {
     return(
@@ -11,7 +12,7 @@ const About =()=> {
 
         <div className= "about-content">
             <div className="about-image-wrapper">
-                <img src="/downloads/chefphoto.png" alt="chef making momos" className="about-image"/>
+                <img src= {momochef} alt="chef making momos" className="about-image"/>
 
             </div>
             <div className="about-text">
